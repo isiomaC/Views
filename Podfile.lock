@@ -1,0 +1,35 @@
+PODS:
+  - Bolts/Tasks (1.9.0)
+  - Parse (1.17.2):
+    - Parse/Core (= 1.17.2)
+  - Parse/Core (1.17.2):
+    - Bolts/Tasks (~> 1.9)
+  - XLPagerTabStrip (8.1.0)
+
+DEPENDENCIES:
+  - Parse
+  - XLPagerTabStrip (from `https://github.com/xmartlabs/XLPagerTabStrip`, branch `master`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bolts
+    - Parse
+
+EXTERNAL SOURCES:
+  XLPagerTabStrip:
+    :branch: master
+    :git: https://github.com/xmartlabs/XLPagerTabStrip
+
+CHECKOUT OPTIONS:
+  XLPagerTabStrip:
+    :commit: 8defea05bc73cf1c27c7c2c5ca5dbf91a6880f5f
+    :git: https://github.com/xmartlabs/XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Parse: 3b31a3dd1777b07ee7f0caee32fafbff544483a5
+  XLPagerTabStrip: 22d4c58200d7c105e0e407ab6bfd01a5d85014be
+
+PODFILE CHECKSUM: f337edae8564be2d1e430aec770350527d00f23d
+
+COCOAPODS: 1.5.3
